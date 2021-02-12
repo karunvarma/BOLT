@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/UriTests.dir/src/UriTests.cpp.o  -o UriTests  ../lib/libgtest_maind.a ../libUri.a ../lib/libgtestd.a -lpthread 

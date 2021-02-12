@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Uri/Uri.hpp
+iostream
+-
+
+/home/karun/coding/c++/network-programming/Uri/src/Uri.cpp
+Uri/Uri.hpp
+-
+
