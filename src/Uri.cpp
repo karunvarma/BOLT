@@ -198,8 +198,11 @@ namespace UriParser {
                     IPV_FUTURE_NUMBER,
                     IPV_FUTURE_BODY,
                     IPV6_ADDRESS,
-                    END
+                    END,
+                    PORT,
                 };
+
+                return true; // skip
 
 
                 // parse the hostPortString
@@ -227,6 +230,7 @@ namespace UriParser {
                 //  name registry,
                 
                 host.clear();
+                std::string portString;
                 HostParsingState hostParsingState = HostParsingState::FIRST_CHARACTER;
                 
                 for (const auto c:hostPortString)
@@ -243,6 +247,8 @@ namespace UriParser {
                                 hostParsingState=HostParsingState::IPV4_ADDRESS_OR_REG_NAME;
                             }
                             break;
+                        case HostParsingState::IPV4_ADDRESS_OR_REG_NAME:
+
                         
                         case HostParsingState::IP_LITERAL:
                             if(c=='v')
@@ -256,13 +262,18 @@ namespace UriParser {
                             }
                             break;
 
-                        case:HostParsingState::IPV6_ADDRESS:
+                        case HostParsingState::IPV6_ADDRESS:
                             if(c==']')
                             {
-                                if()
+                                if(!validateIpv6Address(host))
                                 {
-
+                                    return false;
                                 }
+                                hostParsingState=HostParsingState::END;
+                            }
+                            else
+                            {
+                                host.push_back(c);
                             }
 
                         case HostParsingState::IPV_FUTURE_NUMBER:
@@ -299,12 +310,14 @@ namespace UriParser {
                             if(c==':')
                             {
                                 // then we have a port;
+                                hostParsingState = HostParsingState::PORT;
                             }
                             else
                             {
                                 return false;
                             }
-                        default:
+                        case HostParsingState::PORT:
+                            portString.push_back(c);
                             break;
                         }
                 }
@@ -369,9 +382,9 @@ namespace UriParser {
                 authorityEnd = rest.length();
             }
 
-            std::string authorityString = rest.substr(0,authorityEnd);
+            impl_->authority = rest.substr(0,authorityEnd);
             
-            if(!impl_->ParseAuthority(authorityString,ec))
+            if(!impl_->ParseAuthority(impl_->authority,ec))
             {
                 return false;
             }

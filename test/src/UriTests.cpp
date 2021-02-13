@@ -13,7 +13,7 @@ TEST(UriTests, ParseFromString) {
     UriParser::Uri uri;
     ASSERT_TRUE(uri.ParserFromSring("http://www.host.com/"));
     ASSERT_EQ("http",uri.GetScheme());
-    ASSERT_EQ("www.example.com", uri.GetAuthority());
+    ASSERT_EQ("www.host.com", uri.GetAuthority());
 
     //  ASSERT_EQ("host.com",uri.GetAuthority());
 }
