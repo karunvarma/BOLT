@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karun/coding/c++/network-programming/Uri
+CMAKE_SOURCE_DIR = /home/karun/coding/c++/network-programming/BOLT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karun/coding/c++/network-programming/Uri/build
+CMAKE_BINARY_DIR = /home/karun/coding/c++/network-programming/BOLT/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/karun/coding/c++/network-programming/Uri/build/CMakeFiles /home/karun/coding/c++/network-programming/Uri/build/test/CMakeFiles/progress.marks
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karun/coding/c++/network-programming/Uri/build/CMakeFiles 0
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/karun/coding/c++/network-programming/BOLT/build/CMakeFiles /home/karun/coding/c++/network-programming/BOLT/build/test/CMakeFiles/progress.marks
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karun/coding/c++/network-programming/BOLT/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/UriTests.dir/rule:
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/UriTests.dir/rule
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/UriTests.dir/rule
 .PHONY : test/CMakeFiles/UriTests.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ UriTests: test/CMakeFiles/UriTests.dir/rule
 
 # fast build rule for target.
 UriTests/fast:
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(MAKE) -f test/CMakeFiles/UriTests.dir/build.make test/CMakeFiles/UriTests.dir/build
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(MAKE) -f test/CMakeFiles/UriTests.dir/build.make test/CMakeFiles/UriTests.dir/build
 .PHONY : UriTests/fast
 
 src/UriTests.o: src/UriTests.cpp.o
@@ -177,7 +177,7 @@ src/UriTests.o: src/UriTests.cpp.o
 
 # target to build an object file
 src/UriTests.cpp.o:
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(MAKE) -f test/CMakeFiles/UriTests.dir/build.make test/CMakeFiles/UriTests.dir/src/UriTests.cpp.o
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(MAKE) -f test/CMakeFiles/UriTests.dir/build.make test/CMakeFiles/UriTests.dir/src/UriTests.cpp.o
 .PHONY : src/UriTests.cpp.o
 
 src/UriTests.i: src/UriTests.cpp.i
@@ -186,7 +186,7 @@ src/UriTests.i: src/UriTests.cpp.i
 
 # target to preprocess a source file
 src/UriTests.cpp.i:
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(MAKE) -f test/CMakeFiles/UriTests.dir/build.make test/CMakeFiles/UriTests.dir/src/UriTests.cpp.i
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(MAKE) -f test/CMakeFiles/UriTests.dir/build.make test/CMakeFiles/UriTests.dir/src/UriTests.cpp.i
 .PHONY : src/UriTests.cpp.i
 
 src/UriTests.s: src/UriTests.cpp.s
@@ -195,7 +195,7 @@ src/UriTests.s: src/UriTests.cpp.s
 
 # target to generate assembly for a file
 src/UriTests.cpp.s:
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(MAKE) -f test/CMakeFiles/UriTests.dir/build.make test/CMakeFiles/UriTests.dir/src/UriTests.cpp.s
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(MAKE) -f test/CMakeFiles/UriTests.dir/build.make test/CMakeFiles/UriTests.dir/src/UriTests.cpp.s
 .PHONY : src/UriTests.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/karun/coding/c++/network-programming/Uri
+# Install script for directory: /home/karun/coding/c++/network-programming/BOLT
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/karun/coding/c++/network-programming/Uri/build/googletest/cmake_install.cmake")
-  include("/home/karun/coding/c++/network-programming/Uri/build/test/cmake_install.cmake")
+  include("/home/karun/coding/c++/network-programming/BOLT/build/googletest/cmake_install.cmake")
+  include("/home/karun/coding/c++/network-programming/BOLT/build/test/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/karun/coding/c++/network-programming/Uri/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/karun/coding/c++/network-programming/BOLT/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

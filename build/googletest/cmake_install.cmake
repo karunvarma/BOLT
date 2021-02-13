@@ -1,4 +1,4 @@
-# Install script for directory: /home/karun/coding/c++/network-programming/Uri/googletest
+# Install script for directory: /home/karun/coding/c++/network-programming/BOLT/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/karun/coding/c++/network-programming/Uri/build/googletest/googlemock/cmake_install.cmake")
+  include("/home/karun/coding/c++/network-programming/BOLT/build/googletest/googlemock/cmake_install.cmake")
 
 endif()
 

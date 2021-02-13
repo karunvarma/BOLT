@@ -526,13 +526,13 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/karun/coding/c++/network-programming/Uri/googletest/googlemock/src/gmock_main.cc
+/home/karun/coding/c++/network-programming/BOLT/googletest/googlemock/src/gmock_main.cc
 iostream
 -
 gmock/gmock.h
-/home/karun/coding/c++/network-programming/Uri/googletest/googlemock/src/gmock/gmock.h
+/home/karun/coding/c++/network-programming/BOLT/googletest/googlemock/src/gmock/gmock.h
 gtest/gtest.h
-/home/karun/coding/c++/network-programming/Uri/googletest/googlemock/src/gtest/gtest.h
+/home/karun/coding/c++/network-programming/BOLT/googletest/googlemock/src/gtest/gtest.h
 tchar.h
 -
 

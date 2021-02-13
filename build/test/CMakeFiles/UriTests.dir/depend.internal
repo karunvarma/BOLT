@@ -23,4 +23,4 @@ test/CMakeFiles/UriTests.dir/src/UriTests.cpp.o
  ../googletest/googletest/include/gtest/internal/gtest-string.h
  ../googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../include/Uri/Uri.hpp
- /home/karun/coding/c++/network-programming/Uri/test/src/UriTests.cpp
+ /home/karun/coding/c++/network-programming/BOLT/test/src/UriTests.cpp

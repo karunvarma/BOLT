@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/karun/coding/c++/network-programming/Uri/src/Uri.cpp" "/home/karun/coding/c++/network-programming/Uri/build/CMakeFiles/Uri.dir/src/Uri.cpp.o"
+  "/home/karun/coding/c++/network-programming/BOLT/src/Uri.cpp" "/home/karun/coding/c++/network-programming/BOLT/build/CMakeFiles/Uri.dir/src/Uri.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -9,8 +9,12 @@
 ../include/Uri/Uri.hpp
 iostream
 -
+memory
+-
+algorithm
+-
 
-/home/karun/coding/c++/network-programming/Uri/src/Uri.cpp
+/home/karun/coding/c++/network-programming/BOLT/src/Uri.cpp
 Uri/Uri.hpp
 -
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/karun/coding/c++/network-programming/Uri/test
+# Install script for directory: /home/karun/coding/c++/network-programming/BOLT/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

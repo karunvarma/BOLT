@@ -1,2 +1,2 @@
-/usr/bin/ar qc libUri.a  CMakeFiles/Uri.dir/src/Uri.cpp.o
-/usr/bin/ranlib libUri.a
+/bin/ar qc libUri.a  CMakeFiles/Uri.dir/src/Uri.cpp.o
+/bin/ranlib libUri.a

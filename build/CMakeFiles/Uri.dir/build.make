@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karun/coding/c++/network-programming/Uri
+CMAKE_SOURCE_DIR = /home/karun/coding/c++/network-programming/BOLT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karun/coding/c++/network-programming/Uri/build
+CMAKE_BINARY_DIR = /home/karun/coding/c++/network-programming/BOLT/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Uri.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Uri.dir/flags.make
 
 CMakeFiles/Uri.dir/src/Uri.cpp.o: CMakeFiles/Uri.dir/flags.make
 CMakeFiles/Uri.dir/src/Uri.cpp.o: ../src/Uri.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karun/coding/c++/network-programming/Uri/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Uri.dir/src/Uri.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Uri.dir/src/Uri.cpp.o -c /home/karun/coding/c++/network-programming/Uri/src/Uri.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karun/coding/c++/network-programming/BOLT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Uri.dir/src/Uri.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Uri.dir/src/Uri.cpp.o -c /home/karun/coding/c++/network-programming/BOLT/src/Uri.cpp
 
 CMakeFiles/Uri.dir/src/Uri.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Uri.dir/src/Uri.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karun/coding/c++/network-programming/Uri/src/Uri.cpp > CMakeFiles/Uri.dir/src/Uri.cpp.i
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karun/coding/c++/network-programming/BOLT/src/Uri.cpp > CMakeFiles/Uri.dir/src/Uri.cpp.i
 
 CMakeFiles/Uri.dir/src/Uri.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Uri.dir/src/Uri.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karun/coding/c++/network-programming/Uri/src/Uri.cpp -o CMakeFiles/Uri.dir/src/Uri.cpp.s
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karun/coding/c++/network-programming/BOLT/src/Uri.cpp -o CMakeFiles/Uri.dir/src/Uri.cpp.s
 
 # Object files for target Uri
 Uri_OBJECTS = \
@@ -80,7 +80,7 @@ Uri_EXTERNAL_OBJECTS =
 libUri.a: CMakeFiles/Uri.dir/src/Uri.cpp.o
 libUri.a: CMakeFiles/Uri.dir/build.make
 libUri.a: CMakeFiles/Uri.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karun/coding/c++/network-programming/Uri/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libUri.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karun/coding/c++/network-programming/BOLT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libUri.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Uri.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Uri.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/Uri.dir/clean:
 .PHONY : CMakeFiles/Uri.dir/clean
 
 CMakeFiles/Uri.dir/depend:
-	cd /home/karun/coding/c++/network-programming/Uri/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karun/coding/c++/network-programming/Uri /home/karun/coding/c++/network-programming/Uri /home/karun/coding/c++/network-programming/Uri/build /home/karun/coding/c++/network-programming/Uri/build /home/karun/coding/c++/network-programming/Uri/build/CMakeFiles/Uri.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karun/coding/c++/network-programming/BOLT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karun/coding/c++/network-programming/BOLT /home/karun/coding/c++/network-programming/BOLT /home/karun/coding/c++/network-programming/BOLT/build /home/karun/coding/c++/network-programming/BOLT/build /home/karun/coding/c++/network-programming/BOLT/build/CMakeFiles/Uri.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Uri.dir/depend
 
